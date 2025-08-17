@@ -1,6 +1,7 @@
 # NL_to_SQL_mysql_query_generator
 
 SQL Query Generator with RAG
+
 This Python script generates and executes SQL SELECT queries for any database using natural language input. It leverages Retrieval-Augmented Generation (RAG) with FAISS vector store and a language model (OpenAI's GPT-5 or compatible xAI API) to create accurate MySQL queries. The pipeline dynamically fetches the database schema, validates generated queries, executes them, and summarizes results in plain English.
 
 # Features
