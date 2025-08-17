@@ -6,11 +6,17 @@ This Python script generates and executes SQL SELECT queries for any database us
 # Features
 
 Dynamic Schema Fetching: Retrieves table names, columns, and foreign keys from the database.
+
 RAG with FAISS: Uses embeddings to retrieve relevant schema information for query generation.
+
 SQL Validation: Ensures queries are valid MySQL SELECT statements using sqlglot.
+
 Result Summarization: Converts query results into human-readable summaries.
+
 Error Handling: Includes logging and robust error management for database operations.
+
 Schema Change Detection: Rebuilds the vector store only when the schema changes (using SHA-256 hashing).
+
 The script supports only SELECT queries for safety.
 
 # Requirements
